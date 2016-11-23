@@ -101,7 +101,7 @@ def isMp3File(file):
 	return file.endswith(".mp3")
 
 def printUsage():
-	print "Add tags to mp3 by getting the track number and song name of the file name."
+	print "Add tags to mp3 by getting the track number and song name from the file name."
 	print ""
 	print "Usage: PyMp3Tags.py [options] songs_dir"
 	print ""
